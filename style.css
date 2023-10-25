@@ -1,0 +1,68 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ;
+    local([halva]), url([C:\Users\David\OneDrive\Área de Trabalho\curso\curso5\fonte/halva.ttf]);
+}
+
+header{
+    background-color: beige;
+    text-align: center;
+    height: 100px;
+    padding-top: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    padding: 20px;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+div{
+    border: solid black 1px;
+    width: 280px;
+    display: inline-block;
+    margin: 30px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+h1{
+    font-family: halva;
+}
+
+section{
+    text-align: center;
+}
+
+button{
+    background-color: #f5f5f5;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c1c1c1;
+    width: 105px;
+}
+
+footer{
+background-color: whitesmoke;
+text-align: center;
+height: 70px;
+}
