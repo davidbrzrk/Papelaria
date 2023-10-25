@@ -5,8 +5,25 @@ box-sizing: border-box;
 }
 
 @font-face {
-    font-family: ;
-    local([halva]), url([C:\Users\David\OneDrive\Área de Trabalho\curso\curso5\fonte/halva.ttf]);
+    font-family: 'Melted Monster';
+    src: url('fonts/Melted Monster.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Friday 13th';
+    src: url('fonts/Friday13v12.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: The Macabre;
+    src: url(fonts/The\ Macabre.otf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 header{
@@ -14,6 +31,7 @@ header{
     text-align: center;
     height: 100px;
     padding-top: 17px;
+    font-family: Melted Monster;
 }
 
 a{
@@ -33,13 +51,21 @@ div{
     margin: 30px;
 }
 
+h2{
+    font-family: Melted Monster;
+}
+
 img{
     width: 250px;
     height: 250px;
 }
 
+figcaption{
+    font-family: The Macabre;
+}
+
 h1{
-    font-family: halva;
+    font-family: 'Melted Monster';
 }
 
 section{
@@ -65,4 +91,6 @@ footer{
 background-color: whitesmoke;
 text-align: center;
 height: 70px;
+padding-top: 25px;
+font-family: Melted Monster;
 }
